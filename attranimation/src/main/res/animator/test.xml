@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--AnimationSet-->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    <objectAnimator
+        android:duration="3000"
+        android:propertyName="TranslationX"
+        android:valueFrom="0"
+        android:valueTo="200"
+        android:valueType="floatType" />
+    <objectAnimator
+        android:duration="3000"
+        android:propertyName="TranslationY"
+        android:valueTo="200"
+        android:valueType="floatType" />
+    <!--ValueAnimation-->
+    <objectAnimator
+        android:propertyName="BackgroundColor"
+        android:duration="3000"
+        android:valueFrom="#3F51B5"
+        android:valueTo="#FF4081" />
+
+</set>

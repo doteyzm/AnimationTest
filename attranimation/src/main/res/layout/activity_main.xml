@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btnX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="沿着X轴右移一段距离" />
+
+    <Button
+        android:id="@+id/btnY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="沿着Y周上移一段距离" />
+    <Button
+        android:id="@+id/btnBackColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="背景颜色渐变" />
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动画集合" />
+    <Button
+        android:id="@+id/btnXml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xml中定义"
+        />
+    <Button
+        android:id="@+id/btnWidth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义属性方法1"
+        />
+    <Button
+        android:id="@+id/btnH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="自定义属性方法2"
+        />
+</LinearLayout>
